@@ -4,6 +4,7 @@
 `cert_override.txt` is located at the root of a Firefox profile directory and stores the per-domain certificate overrides for that profile. When you permanently add an exception for Firefox to trust a certificate for a specific domain, Firefox adds an entry to `cert_override.txt`, and will read it on startup in the future to load the override again.
 
 ## Installation
+`firefox-cert-override` requires (read: has only been tested on) Python 3.5.
 
 ```sh
 $ pip install firefox-cert-override
