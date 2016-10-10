@@ -1,4 +1,6 @@
 # firefox-cert-override
+[![CircleCI](https://circleci.com/gh/Osmose/firefox-cert-override.svg?style=svg)](https://circleci.com/gh/Osmose/firefox-cert-override)
+
 `firefox-cert-override` is a Python library and CLI utility for reading and writing `cert_override.txt` files.
 
 `cert_override.txt` is located at the root of a Firefox profile directory and stores the per-domain certificate overrides for that profile. When you permanently add an exception for Firefox to trust a certificate for a specific domain, Firefox adds an entry to `cert_override.txt`, and will read it on startup in the future to load the override again.

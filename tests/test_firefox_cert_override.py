@@ -7,8 +7,8 @@ from firefox_cert_override import (
     generate_cert_override,
     OverrideMask,
     parse_cert_override,
-    SHA256_OID,
 )
+from firefox_cert_override.base import SHA256_OID
 
 
 BASE_DIR = path.abspath(path.dirname(__file__))
